@@ -1,0 +1,28 @@
+#surefire
+#Mon Jun 18 02:01:28 EDT 2012
+testClassesDirectory=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\inject_ejb_to_field\\target\\test-classes
+classPathUrl.3=C\:\\Users\\Sang\\.m2\\repository\\junit\\junit\\4.8.2\\junit-4.8.2.jar
+classPathUrl.2=C\:\\Users\\Sang\\.m2\\repository\\javax\\javaee-web-api\\6.0\\javaee-web-api-6.0.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\inject_ejb_to_field\\target\\classes
+reportsDirectory=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\inject_ejb_to_field\\target\\surefire-reports
+classPathUrl.0=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\inject_ejb_to_field\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\inject_ejb_to_field\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\Sang\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=C\:\\Users\\Sang\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit4\\2.7.1\\surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\inject_ejb_to_field\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false

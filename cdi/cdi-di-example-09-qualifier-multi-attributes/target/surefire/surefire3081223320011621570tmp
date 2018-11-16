@@ -1,0 +1,34 @@
+#surefire
+#Sat Jan 07 17:27:46 EST 2012
+testClassesDirectory=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\cdi-di-example-01\\target\\test-classes
+classPathUrl.4=C\:\\Users\\Sang\\.m2\\repository\\javax\\annotation\\jsr250-api\\1.0\\jsr250-api-1.0.jar
+classPathUrl.3=C\:\\Users\\Sang\\.m2\\repository\\javax\\enterprise\\cdi-api\\1.0-SP1\\cdi-api-1.0-SP1.jar
+classPathUrl.2=C\:\\Users\\Sang\\.m2\\repository\\org\\cdisource\\beancontainer\\beancontainer-api\\1.0-SNAPSHOT\\beancontainer-api-1.0-SNAPSHOT.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\cdi-di-example-01\\target\\classes
+reportsDirectory=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\cdi-di-example-01\\target\\surefire-reports
+classPathUrl.0=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\cdi-di-example-01\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\cdi-di-example-01\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\Sang\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=C\:\\Users\\Sang\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.1\\surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=C\:\\1passion.labs\\handson_javaee6\\javaee6_cdi_basics\\samples_maven\\cdi-di-example-01\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.9=C\:\\Users\\Sang\\.m2\\repository\\javax\\validation\\validation-api\\1.0.0.GA\\validation-api-1.0.0.GA.jar
+classPathUrl.8=C\:\\Users\\Sang\\.m2\\repository\\com\\caucho\\resin-javaee\\4.0.16\\resin-javaee-4.0.16.jar
+classPathUrl.7=C\:\\Users\\Sang\\.m2\\repository\\com\\caucho\\resin\\4.0.16\\resin-4.0.16.jar
+childDelegation=false
+classPathUrl.6=C\:\\Users\\Sang\\.m2\\repository\\org\\cdisource\\beancontainer\\beancontainer-resin-impl\\1.0-SNAPSHOT\\beancontainer-resin-impl-1.0-SNAPSHOT.jar
+classPathUrl.5=C\:\\Users\\Sang\\.m2\\repository\\javax\\inject\\javax.inject\\1\\javax.inject-1.jar
