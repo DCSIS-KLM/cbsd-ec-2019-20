@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section.1}{What is a RESTful API?}{}% 1
+\BOOKMARK [1][-]{section.2}{Installing the MEAN Stack backend}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Installing MongoDB}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Installing NodeJS}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Installing ExpressJS}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Using MongoDB with Mongoose}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Mongoose CRUD}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Mongoose Create}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Mongoose Read and Query}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Mongoose Update}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.5}{Mongoose Delete}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{ExpressJS and Middleware}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Default Express Middleware}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Other ExpressJS Middleware}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Wiring up the MEAN Stack}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Bootstrapping ExpressJS}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Connect ExpressJS to MongoDB}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Creating the Todo model with Mongoose}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{API clients \(Browser, Postman and curl\)}{}% 19
+\BOOKMARK [2][-]{subsection.6.1}{Curl}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.2}{Browser and Postman}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.3}{Websites and Mobile Apps}{section.6}% 22
+\BOOKMARK [1][-]{section.7}{ExpressJS Routes}{}% 23
+\BOOKMARK [2][-]{subsection.7.1}{List: GET /todos}{section.7}% 24
+\BOOKMARK [2][-]{subsection.7.2}{Create: POST /todos}{section.7}% 25
+\BOOKMARK [2][-]{subsection.7.3}{Show: GET /todos/:id}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.4}{Update: PUT /todos/:id}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.5}{Destroy: DELETE /todos/:id}{section.7}% 28
