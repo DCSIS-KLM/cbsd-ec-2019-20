@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Travelconsumer
+Bundle-SymbolicName: org.sose.travelprovider.frontend
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.2
+Import-Package: org.osgi.framework;version="1.6.0",
+ org.osgi.service.event;version="1.3.0",
+ org.sose.messagetypes,
+ org.sose.travelprovider.service.consumer,
+ org.sose.travelprovider.service.provider
+Service-Component: META-INF/component.xml

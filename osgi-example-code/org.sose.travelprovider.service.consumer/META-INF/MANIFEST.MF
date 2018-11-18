@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consumer
+Bundle-SymbolicName: org.sose.travelprovider.service.consumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.2
+Import-Package: org.sose.messagetypes
+Export-Package: org.sose.travelprovider.service.consumer

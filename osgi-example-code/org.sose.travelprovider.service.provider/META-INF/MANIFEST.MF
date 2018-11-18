@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Travelprovider
+Bundle-SymbolicName: org.sose.travelprovider.service.provider
+Bundle-Version: 1.0
+Bundle-Vendor: Toni Ruokolainen
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.2
+Export-Package: org.sose.travelprovider.service.provider
+Import-Package: org.sose.messagetypes

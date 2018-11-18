@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" enabled="true" immediate="true" name="org.sose.travelprovider.backend">
+   <implementation class="org.sose.travelprovider.backend.TravelProviderBackend"/>
+   <reference bind="bindEventAdmin" cardinality="0..1" interface="org.osgi.service.event.EventAdmin" name="EventAdmin" policy="dynamic" unbind="unbindEventAdmin"/>
+   <service>
+      <provide interface="org.sose.hotelprovider.service.consumer.HotelConsumerEndpointInterface"/>
+   </service>
+   <reference bind="bindConsumer" cardinality="1..1" interface="org.sose.travelprovider.service.consumer.TravelConsumerEndpointInterface" name="TravelConsumerEndpointInterface" policy="static" unbind="unbindConsumer"/>
+   <reference bind="bindHotelProvider" cardinality="1..1" interface="org.sose.hotelprovider.service.provider.HotelProviderEndpointInterface" name="HotelProviderFrontend" policy="static" unbind="unbindHotelProvider"/>
+</scr:component>
