@@ -1,5 +1,8 @@
 ## Source code for Beer Locker tutorials
 
+This tutorial code is based upon a series of articles by  Scott Smith,
+[Beer Locker: Building a RESTful API With Node](http://scottksmith.com/blog/2014/05/02/building-restful-apis-with-node/)
+
 #### beerlocker-1
 
 With an ever growing collection of beer, the department is in dire need of a way to store and track the beer.
@@ -59,8 +62,3 @@ The starting code for the sixth version which uses username and password for aut
 ####beerlocker-6.2
 
 The final version of our `beerlocker` application.
-
-## Credits
-
-This tutorial is based upon a series of articles by  Scott Smith,
-[Beer Locker: Building a RESTful API With Node](http://scottksmith.com/blog/2014/05/02/building-restful-apis-with-node/)
