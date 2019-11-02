@@ -1,65 +1,66 @@
-Source code for Beer Locker tutorials
+## Source code for Beer Locker tutorials
 
-Language Translations:
+#### beerlocker-1
 
-+ [Español](translations/README_es_CO.md)
+With an ever growing collection of beer, the department is in dire need of a way to store and track the beer.
+What better way to do this than to create an application where we can add, remove, update, and view the beer collection.
+Like any motivated developer, we want our friends to be able to create their own lockers and also, to control who has access to ours.
 
+In this multipart series we’ll be creating a RESTful API using `Node`, `Express`, `Mongoose` to interact with `MongoDB`,
+`Passport` for authentication, `OAuth2orize` for OAuth support, and explore best practices and tools.
 
+When we are done, we should have an API that allows users to
 
-####beerlocker-1
++ authenticate,
++ perform CRUD operations,
++ authorise other applications via OAuth to access the API,
++ have a solid understanding of best practices and tooling, and
++ most important of all, a place to store the beer!
 
-With an ever growing collection of beer, I am in dire need of a way to store and track my beer. What better way to do this than to create an application where I can add, remove, update, and view my beer collection. Like any motivated developer, I want my friends to be able to create their own lockers and control who has access to mine.
+#### beerlocker-2
 
-In this multipart series we’ll be creating a RESTful API using Node, Express, Mongoose to interact with MongoDB, Passport for authentication, OAuth2orize for OAuth support, and explore best practices and tools.
+In our previous version we left off with a basic `Node` application in place capable of accepting `HTTP` requests and responding back with some static `JSON`.
 
-When we are done, we should have an API that allows users to authenticate, perform CRUD operations, authorize other applications via OAuth to access the API, have a solid understanding of best practices and tooling, and most important of all, a place to store our beer!
+In this part we will dive a bit deeper and learn how to implement CRUD operations on our beer locker.
+By the end of this version you will have learned how to connect to a `MongoDB` database,
+used Mongoose for object modelling, and have implemented `GET`, `PUT`, `POST`, and `DELETE` endpoints.
 
-[Beer Locker: Building a RESTful API With Node](http://scottksmith.com/blog/2014/05/02/building-restful-apis-with-node/)
+#### beerlocker-3.1
 
-####beerlocker-2
+The starting code which will utilise `Passport`.
+Also, we clean up the code a bit from our previous versions.
 
-In our previous article we left off with a basic Node applicaton in place capable of accepting HTTP requests and responding back with some static JSON.
+#### beerlocker-3.2
 
-In this part we will dive a bit deeper and learn how to implement CRUD operations on our beer locker. By the end of this article you will have learned how to connect to a MongoDB, used Mongoose for object modeling, and have implemented GET, PUT, POST, and DELETE endpoints.
+In our previous version we ended with a fairly functional API capable of adding, removing, updating, and viewing beer.
 
-[Beer Locker: Building a RESTful API With Node - CRUD](http://scottksmith.com/blog/2014/05/05/beer-locker-building-a-restful-api-with-node-crud/)
+In this part we will dive into creating user accounts and authentication using `Passport`.
+By the end of this version we will have learned how to add user accounts, implement authentication, and control access to beer lockers.
 
-####beerlocker-3.1
+### beerlocker-4
 
-Starting point for the third article on implementing Passport. This is to clean up the code a bit from our previous tutorials.
+In our previous version we ended with a functional API capable of creating user accounts, locking down API endpoints, and only allowing access to a user’s own beer locker.
 
-####beerlocker-3.2
+In this version we will dive into creating an `OAuth2` server and allowing access to API endpoints for the authorised user or authorised applications.
+We will do this by integrating `OAuth2orize` into our application.
 
-In our previous article we ended wtih a fairly functional API capable of adding, removing, updating, and viewing beer.
+### beerlocker-5
 
-In this part we will dive into creating user accounts and authentication using Passport. By the end of this article you will have learned how to add user accounts, implement authentication, and control access to beer lockers.
+In our previous version we ended with a functional API capable of creating user accounts,
+locking down API endpoints, only allowing access to a user's own beer locker, and an `OAuth2` server.
 
-[Beer Locker: Building a RESTful API With Node - Passport](http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/)
-
-###beerlocker-4
-
-In our previous article we ended wtih a functional API capable of creating user accounts, locking down API endpoints, and only allowing access to a user’s own beer locker.
-
-In this part we will dive into creating an OAuth2 server and allowing access to API endpoints for the authorized user or authorized applications. We will do this by integrating OAuth2orize into our application.
-
-[Beer Locker: Building a RESTful API With Node - OAuth2 Server](http://scottksmith.com/blog/2014/07/02/beer-locker-building-a-restful-api-with-node-oauth2-server/)
-
-###beerlocker-5
-
-In our previous article we ended wtih a functional API capable of creating user accounts, locking down API endpoints, only allowing access to a user's own beer locker, and an OAuth2 server.
-
-Many readers have asked questions about how to use different authentication strategies so I am going to continue this series and delve into many of those strategies.
-
-This article will explore the use of Digest authentication instead of Basic.
-
-[Beer Locker: Building a RESTful API with Node - Digest](http://scottksmith.com/blog/2014/09/14/beer-locker-building-a-restful-api-with-node-digest/)
+This version considers questions about how to use different authentication strategies,
+exploring the use of *Digest authentication* instead of *Basic* authentication.
 
 ####beerlocker-6.1
 
-Starting point for the sixth article on using username and password for authentication. This is to clean up the code a bit from our previous tutorial.
+The starting code for the sixth version which uses username and password for authentication.
 
 ####beerlocker-6.2
 
-In our previous article we explored implementing Digest authentication in place of Basic. This article will now delve into implementing username and password authentication using the passport-local module.
+The final version of our `beerlocker` application.
 
-[Beer Locker: Building a RESTful API With Node - Username & Password](http://scottksmith.com/blog/2014/09/18/beer-locker-building-a-restful-api-with-node-username-and-password/)
+## Credits
+
+This tutorial is based upon a series of articles by  Scott Smith,
+[Beer Locker: Building a RESTful API With Node](http://scottksmith.com/blog/2014/05/02/building-restful-apis-with-node/)
