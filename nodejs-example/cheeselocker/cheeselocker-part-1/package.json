@@ -1,0 +1,7 @@
+{
+  "name": "cheeselocker",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.1.1"
+  }
+}
