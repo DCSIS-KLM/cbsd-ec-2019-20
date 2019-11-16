@@ -1,4 +1,4 @@
-package example;
+package observer;
 
 // A specific Observer to observe ClockTimerModel: DigitalClockView
 

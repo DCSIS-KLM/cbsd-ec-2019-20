@@ -1,4 +1,4 @@
-package example;
+package observer;
 
 import java.util.Scanner;
 

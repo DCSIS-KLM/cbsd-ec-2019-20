@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java Patterns/Java Patterns.iml" filepath="$PROJECT_DIR$/Java Patterns/Java Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code-examples.iml" filepath="$PROJECT_DIR$/code-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/observer-observable/observer-observable.iml" filepath="$PROJECT_DIR$/observer-observable/observer-observable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osgi-intellij-example/osgi-intellij-example.iml" filepath="$PROJECT_DIR$/osgi-intellij-example/osgi-intellij-example.iml" />
+    </modules>
+  </component>
+</project>

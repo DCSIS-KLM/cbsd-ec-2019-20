@@ -1,4 +1,4 @@
-package example;
+package observer;
 // A Sub-class of Observable: a Clock Timer
 
 public class ClockTimerModel extends Observable {
@@ -32,6 +32,7 @@ public class ClockTimerModel extends Observable {
         }
       }
     }
+
     // specify that my state was changed
     // notify all attached Observers of a change
     notifyObservers(this);
