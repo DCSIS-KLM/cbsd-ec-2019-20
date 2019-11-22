@@ -4,9 +4,6 @@ We will add to this code repository as the course progresses so please "pull"
 frequently (at least once a week).
 
 
-+ `Dependency-Injection` - the basic `Hello World` example of 
-Dependency Injection, or, so-called, *Inversion of Control*.
-+ `Dependency-Injection-Spring` - DI using the Spring Framework
 + `Ex_Files_Java9_Modularity` - examples from the `LinkedIn Learning` video
 + `Java Patterns` - some basic design patterns we need for Spring and JEE
 + `jpms` - Java Platform Module System examples
